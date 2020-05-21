@@ -6,7 +6,7 @@ var suli = [['Szociális gondozó-ápoló', '2012-2014 SZEFI', 'Szentes'],
 	['Számítógép programozó', '1986-1989 SZÁMALK Számítástechnikai Oktató Központ', 'Szeged'],	
 	['Nyomdai fénymásoló', '1979-1983	Tevan Andor Nyomdaipari SZKI', 'Békéscsaba']];
 	
-var mk = [['Szakoktató','Gyulai SZC SZESZI','Szeghalom'],	
+var mk = [['Szakoktató','2018- Gyulai SZC SZESZI','Szeghalom'],	
 	['Kísérő-támogató, gondozó', '2016-2018	Aranysziget Otthon, Gesztenyeliget Otthon', 'Nagymágocs'],
 	['Nevelőszülő', '2014-2018 KLIK', 'Nagymágocs'],
 	['Gyermek- és ifjúsági felügyelő', '2013-2014 Rigó Alajos Gyermekotthon', 'Szentes'],
