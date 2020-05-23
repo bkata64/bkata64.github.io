@@ -19,7 +19,7 @@ A csapat tagjai:
  
 Egy repüléssel kapcsolatos statisztikai web-oldalt kellett létrehoznunk.
 
-###A web-oldal felépítése:
+### A web-oldal felépítése:
 
  - Főoldal
  - Légitársaságok Listája
@@ -32,7 +32,7 @@ Még a weboldal létrehozása előtt többlépcsős feltörési feladat várt r�
 
 Szintén feladat volt a megjelenítendő adatok kinyerése a forrásul kapott Excel táblázatból, és internetes gyűjtőmunka a megjelenítendő képek, ikonok, koordináták tekintetében.
 
-###A feladataink között volt:
+### A feladataink között volt:
 
  - HTML és CSS fejlesztés
  - JavaScript fejlesztés
