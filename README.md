@@ -8,9 +8,9 @@ A képzés keretében olyan eszközökkel ismerkedhettünk meg, amik ma már né
 
 ## Projekt a workshop alatt
 
-A projekt alatt 4 fős csapatunk volt, egy mentor támogatásával. Mentorunk: András
+A projekt alatt 4 fős csapatunk volt, egy mentor támogatásával. Mentorunk: Noszka András
 
-A csapat tagjai:
+### A csapat tagjai:
 
  - Várhidiné Rita
  - Zilahi Erzsébet
