@@ -3,7 +3,7 @@ Saturday afternoon fever
 
 ## Hogyan kezdődött a projekt?
 
-Az ITMP klubnak és a Green Fox Academy-nek köszönhetően részt vehettünk a "Technológia és módszertan a projektalapú informatika oktatáshoz" címet viselő 2 alkalmas képzésen. 
+Az [ITMP klubnak](https://itmp.hu/) és a [Green Fox Academy](https://www.greenfoxacademy.com/)-nek köszönhetően részt vehettünk a "Technológia és módszertan a projektalapú informatika oktatáshoz" címet viselő 2 alkalmas képzésen. 
 A képzés keretében olyan eszközökkel ismerkedhettünk meg, amik ma már nélkülözhetetlenek a csapatban végzett, projektalapú IT tevékenységeknél. S hogy mindezt a gyakorlatban is megtapasztalhassuk, egy projekt megvalósítását kapták a csapatok feladatként.
 
 ## Projekt a workshop alatt
