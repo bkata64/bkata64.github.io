@@ -1,0 +1,172 @@
+body {
+  background-color: beige;
+  font-family: Verdana;
+  /*margin: 0;*/
+}
+
+
+
+header {    
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-image: url('bill.jpg');
+  height: 12rem;
+  background-color: gray;
+  background-position: center bottom;
+}
+
+header h1 {
+  font-family: 'Courgette', cursive;    
+  margin: 0;
+  padding: 0;  
+  position: absolute;
+  top: 0;
+  left: 9rem;  
+  color: white;
+  font-size: 5rem;
+}
+
+header nav {  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+header ul{     
+  margin: 0;
+  list-style: none;
+}
+
+header li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px; 
+  color: orange;
+  font-size: 1.5rem;  
+  font-weight: bold;
+  font-variant: small-caps;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px black;
+}
+
+nav a:hover {
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+}
+
+#rang, #web, #cs, #ab {
+  /*width: 80%;
+  height: 55rem;
+  margin: 1.25rem auto;
+  padding: 1.25rem; */
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;  
+  height: 55rem;
+  border-radius: 1.25rem;
+  background-color: rgba(255, 255, 255, .5);
+  color: orange;
+  text-shadow: 1px 1px 1px brown;
+}
+
+#web, #cs, #ab {
+  display: none;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: .3rem;
+  text-align: left;
+}
+
+th:nth-child(2), td:nth-child(2) {  
+  text-align: right;
+  padding-right: 4rem;
+}
+
+th {
+  border-bottom: 2px solid;
+}
+
+td {
+  border-bottom: 2px dashed;
+}
+
+tr:last-child td{
+  border-bottom: 2px none;
+}
+
+.card {
+  /*width: 50%;
+  margin: 1rem auto;
+  padding: .5rem;
+  text-align: center;*/
+  border: 2px solid orange;
+  border-radius: .3rem;  
+  background-color: rgba(235, 156, 11, 0.1);
+}
+
+#web, #cs, #ab {
+  height: auto;
+}
+
+
+#web a, #cs a, #ab a {
+  text-decoration: none;  
+  color: orange;
+}
+
+
+#web a:visited, #cs a:visited, #ab a:visited {
+  color: white;
+}
+
+#web h2, #cs h2, #ab h2{
+  color: orange;
+  font-size: 1.2rem;
+}
+
+#web h3 a, #cs h3 a, #ab h3 a  {
+  color: brown;
+  font-size: 1rem;
+}
+
+
+
+@media screen and (max-width: 960px){
+  html {font-size: 12px}  
+}
+
+@media screen and (max-width: 680px){
+  html {font-size: 10px}   
+}
+
+@media screen and (max-width: 520px){
+  header h1 {
+    font-size: 3rem;
+  }  
+}
+
+@media screen and (max-width: 420px){
+   html {font-size: 8px}
+}
+
+@media screen and (max-width: 348px){
+   html {font-size: 6px}   
+}
+
+@media screen and (max-width: 298px){
+   html {font-size: 4px}
+}

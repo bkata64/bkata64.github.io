@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Programozás 12A 2021/2022</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script>
+      /*function adat()
+      {
+        ab.style.display = "block";
+        web.style.display = "none";
+        rang.style.display = "none";
+        cs.style.display = "none";
+      }*/
+      function webes()
+      {
+       /* ab.style.display = "none";*/
+        web.style.display = "block";
+        rang.style.display = "none";
+        /*cs.style.display = "none";*/
+      }
+      
+      /*function progi()
+      {
+        ab.style.display = "none";
+        web.style.display = "none";
+        rang.style.display = "none";
+        cs.style.display = "block";
+      }*/
+      function rangos()
+      {
+        /*ab.style.display = "none";*/
+        web.style.display = "none";
+        rang.style.display = "block";
+        /*cs.style.display = "none";*/
+      }
+    </script>
+  </head>
+  <body>
+    
+<header>        
+  <h1>Programozás 12A</h1>
+  <nav> 
+    <ul> 
+      <!--        
+      <li><a href="#" onclick="adat()">Adatbázis</a></li>
+      -->
+      <li><a href="#" onclick="webes()">WEB</a></li> 
+      <!--
+      <li><a href="#" onclick="progi()">C#</a></li> 
+      -->
+      <li><a href="#" onclick="rangos()">Rangok</a></li>
+    </ul>                    
+  </nav>  
+</header>    
+
+<!--
+<div id="ab" class="container">
+  <div class="row">
+
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Alapok(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604f3fb7e3a6f1426b941d01/watch" target="_blank">ACCESS alap (max:7pont)</a></h3>    
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604f56c20c316b42613cae3e/watch" target="_blank">Alapfogalmak (max:8pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604f63bef142664200dc2e97/watch" target="_blank">Relációs adatmodell (max:8pont)</a></h3> 
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Gyakorlatban 1.(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6053a2fc89776f422b88ee92/watch" target="_blank">Adatbázis létrehozása (max:6pont)</a></h3>    
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6053aa6860509c4224f7048b/watch" target="_blank">Lekérdezések (max:7pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6053bc09e832e4424cc67477/watch" target="_blank">Feltétel szerinti szűrés1 (max:6pont)</a></h3> 
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Gyakorlatban 2.(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6055127a5320e14265f573cf/watch" target="_blank">Feltétel szerinti szűrés2 (max:6pont)</a></h3>    
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6057b41806316342853077d3/watch" target="_blank">Rendezés (max:7pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6057ba765e1ac642aad83fd8/watch" target="_blank">Számított mező (max:5pont)</a></h3> 
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Gyakorlatban 3.(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6057be8e0a18ca427e8bb04d/watch" target="_blank">Összesítés (max:6pont)</a></h3>    
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6057c4a62d5b164269dbb777/watch" target="_blank">Csoportosítás (max:6pont)</a></h3>
+          <!--<h3 class="card-text"><a href="https://forms.gle/uiuaUiF9rDC9qzsu7" target="_blank">Kvíz az eddigiekre (max:33pont)</a></h3> --!bef>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">SELECT röviden(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60625a8e38c64f4239b49d58/watch" target="_blank">Tanulás (max:10pont)</a></h3>    
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3> 
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Több tábla(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/606aec416009cf42471a4d0d/watch" target="_blank">Tanulás (max:8pont)</a></h3>    
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3> 
+        </div> 
+		  </div> 
+    </div> 
+        <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">phpMyAdminhez(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/606ca459e5bd2b426d1e8bd1/watch" target="_blank">AppServ telepítése</a></h3>    
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3> 
+        </div> 
+		  </div> 
+    </div>
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">MySQL (új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/607490fde15787417c30cb04/watch" target="_blank">Tanulás1 (max:8pont)</a></h3>    
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6074991e5dfc3f4157b86898/watch" target="_blank">Tanulás2 (max:11pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6074a401336727413dc6833c/watch" target="_blank">Érettségi (max:14pont)</a></h3> 
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Érettségi 2020(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/607b4f6c85ab78412b58e0d5/watch" target="_blank">Tanulás (max:20pont)</a></h3>    
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3> 
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Próbaérettségi 2021(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60870bfafdb4e341a9be8f04/watch" target="_blank">Tanulás</a></h3>    
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3> 
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Elmélet1(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60aab360ed4987419e85a8fb/watch" target="_blank">Adattípusok</a></h3>    
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60aac8f053adef4187119473/watch" target="_blank">Szelekció</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60aacf322e811941a50f6be5/watch" target="_blank">Iteráció</a></h3> 
+        </div> 
+		  </div> 
+    </div>
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">	  
+		    <div class="card-body">	
+			    <h2 class="text-center">Elmélet2(új!)</h2>	
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60abf07d013d1d410e897a0d/watch" target="_blank">SQL Select</a></h3>    
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60abf6dcf69f8c415ae5deba/watch" target="_blank">WEB HTML</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60abf8ee6b54ba41613753be/watch" target="_blank">WEB CSS</a></h3> 
+        </div> 
+		  </div> 
+    </div>
+
+  </div> 
+</div> 
+-->
+
+<div id="web" class="container">
+  <div class="row">
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">		  
+		    <div class="card-body">	
+			    <h2 class="text-center">HTML összefoglalás</h2>	
+          <h3 class="card-text"><a href="https://youtu.be/x4i0mn-tbtI" target="_blank">Tanulás</a></h3>    
+          <h3 class="card-text"><a href="https://forms.gle/TykJCqhiyMd1YdDJ7" target="_blank">Kvíz (19pont)</a></h3>
+        </div> 
+		  </div> 
+    </div> 
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">
+			  <div class="card-body">
+			    <h2 class="text-center">CSS összefoglalás 1.</h2> 
+          <h3 class="card-text"><a href="https://youtu.be/EGodFNMKJ8o" target="_blank">Tanulás</a></h3>  
+          <h3 class="card-text"><a href="https://forms.gle/ZJ93nJmY2PfMZypJ6" target="_blank">Kvíz (10pont)</a></h3>
+        </div>  
+      </div>
+		</div>
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2 mt-2">
+		    <div class="card-body">
+			    <h2 class="text-center">CSS összefoglalás 2.</h2>
+          <h3 class="card-text"><a href="https://youtu.be/OYojsDWiWwI" target="_blank">Tanulás</a></h3>         
+          <h3 class="card-text"><a href="https://forms.gle/7YrLqWBrt29iSVXj8" target="_blank">Kvíz (11pont)</a></h3>
+        </div>
+      </div> 
+		</div>
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2">
+			  <div class="card-body">
+			    <h2 class="text-center">Színek</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6140f9b16dea4341c00b4db6/watch" target="_blank">Tanulás (max:8pont)</a></h3>
+          <h3 class="card-text"><a href="https://forms.gle/jYDTNKTnRKvxpCgg6" target="_blank">Kvíz (10pont)</a></h3>  <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GN3X0WVN3OC8" target="_blank">Feladat (max:17pont)</a></h3> 
+        </div>			  
+      </div>
+		</div>
+
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2">
+			  <div class="card-body">
+			    <h2 class="text-center">Karakterformázás</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6140f9ea8c4256414de17403/watch" target="_blank">Tanulás (max:11pont)</a></h3>
+          <h3 class="card-text"><a href="https://forms.gle/7sPwET5PTycZ9oso7" target="_blank">Kvíz (max:9pont)</a></h3>
+          <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GN3SS3TXQHFU" target="_blank">Feladat (max:21pont)</a></h3>
+        </div>			  
+      </div>
+		</div>
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2">
+			  <div class="card-body">
+			    <h2 class="text-center">Szövegformázás</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6140fa0cf4924841c20c8d0b/watch" target="_blank">Tanulás (max:13pont)</a></h3>
+          <h3 class="card-text"><a href="https://forms.gle/LY3v8TfwnNR7cm8e9" target="_blank">Kvíz (max:10pont)</a></h3>
+          <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GN3TDPSYOXY1" target="_blank">Feladat (max:25pont)</a></h3>
+        </div>			  
+      </div>
+		</div>
+    
+<!--   
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2">
+			  <div class="card-body">
+			    <h2 class="text-center">Szelektorok</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613ce261ceaea04163fb389f/watch" target="_blank">Tanulás (max:8pont)</a></h3>
+          <h3 class="card-text"><a href="https://forms.gle/fuBw3vGZ9xVYhuft7" target="_blank">Kvíz (max:9pont)</a></h3>
+          <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GN3U2UQNZXPE" target="_blank">Feladat (max:25pont)</a></h3>
+        </div>			  
+      </div>
+		</div>
+
+
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2">
+			  <div class="card-body">
+			    <h2 class="text-center">CSS helye</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613ce3c10c2c3f4186cfb18b/watch" target="_blank">Tanulás (max:7pont)</a></h3>
+          <h3 class="card-text"><a href="https://forms.gle/JCVZG2wWkMoE2Rxy6" target="_blank">Kvíz (max:6pont)</a></h3>
+          <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GN8GVCQWHWCW" target="_blank">Feladat (max:29pont)</a></h3>
+        </div>			  
+      </div>
+		</div>
+
+
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2">
+			  <div class="card-body">
+			    <h2 class="text-center">Háttérkép</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613ce4ea51e222419d1b36e1/watch" target="_blank">Tanulás (max:11pont)</a></h3>
+          <h3 class="card-text"><a href="https://forms.gle/tN6ysxouN43BmbGJ9" target="_blank">Kvíz (max:8pont)</a></h3>
+          <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GN8HGGHWNLTQ" target="_blank">Feladat (max:21pont)</a></h3>
+        </div>			  
+      </div>
+		</div>
+
+<!--
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2">
+			  <div class="card-body">
+			    <h2 class="text-center">Szegélyek</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6016dbaa2964964298e879ba/watch" target="_blank">Tanulás (max:7pont)</a></h3>
+          <h3 class="card-text"><a href="https://forms.gle/JoK8CWak7d6AyMwF9" target="_blank">Kvíz (max:13pont)</a></h3>
+          <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GN8IIO0LXXP3" target="_blank">Feladat (max:21pont)</a></h3>
+        </div>			  
+      </div>
+		</div>
+
+    <div class="col-md-6 col-lg-4">
+		  <div class="card mb-2">
+			  <div class="card-body">
+			    <h2 class="text-center">Margók, méretek</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6016e093783d964276b5f349/watch" target="_blank">Tanulás (max:10pont)</a></h3>
+          <h3 class="card-text"><a href="https://forms.gle/CwuQWNE5xbXEFsAz8" target="_blank">Kvíz (max:17pont)</a></h3>
+          <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GN8IYZPR2BJU" target="_blank">Feladat (max:17pont)</a></h3>
+        </div>			  
+      </div>
+		</div>
+
+    <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Állatkert feladat</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/602ef58579d6fb4274502eb2/watch" target="_blank">Javítás (max:18pont)</a></h3>
+              <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+              <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+            </div>			  
+          </div>
+        </div>  
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Tisza feladat</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60341475a3d79d4271afdfc8/watch" target="_blank">Dolgozat (max:22pont)</a></h3>
+              <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+              <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+            </div>			  
+          </div>
+        </div> 
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Lebegtetés</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60393501967321426a85d837/watch" target="_blank">Tanulás(max:6pont)</a></h3>
+              <h3 class="card-text"><a href="https://forms.gle/vSE5PbCmStpCi2iSA" target="_blank">Kvíz (max:15pont)</a></h3>
+              <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GO2JEPDYNFSX" target="_blank">Feladat (max:13pont)</a></h3>
+            </div>			  
+          </div>
+        </div> 
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Szemantikus elemek(új!)</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60394b6a8cb3a1422ea54bb9/watch" target="_blank">Tanulás(max:13pont)</a></h3>
+              <h3 class="card-text"><a href="https://forms.gle/MT9ZWL1MbaJ5Pwe48" target="_blank">Kvíz (max:15pont)</a></h3>
+              <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GO2LIVVKFCE4" target="_blank">Feladat (max:17pont)</a></h3>
+            </div>			  
+          </div>
+        </div>  
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Búbos banka feladat</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/603d3cdee7029f42574ca199/watch" target="_blank">Tanulás1(max:10pont)</a></h3>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/603d44a609ad88422d73c323/watch" target="_blank">Tanulás2(max:13pont)</a></h3>
+              <h3 class="card-text"><a href="" target="_blank">Feladat (max:23pont)</a></h3>
+            </div>			  
+          </div>
+        </div>  
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Sárkányhajó feladat</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60466fc0b021c042ab798734/watch" target="_blank">Tanulás1(max:8pont)</a></h3>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60467d38faea004281aa3fe7/watch" target="_blank">Tanulás2(max:19pont)</a></h3>
+              <h3 class="card-text"><a href="" target="_blank">Feladat (max:27pont)</a></h3>
+            </div>			  
+          </div>
+        </div>   
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Űrlap-elemek(új!)</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60469ce6b2d8c94271909775/watch" target="_blank">Tanulás1(max:8pont)</a></h3>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60471e9aff4aca4290fc11f4/watch" target="_blank">Tanulás2(max:10pont)</a></h3>
+              <h3 class="card-text"><a href="" target="_blank">Feladat(max:18pont)</a></h3>
+            </div>			  
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Sárgatúró(új!)</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604f91f56dae6e425117b14f/watch" target="_blank">Tanulás(új!)(max:14pont)</a></h3>
+              <h3 class="card-text"><a href="https://youtu.be/SGXuxwGAf7Y" target="_blank">Csak videó</a></h3>
+              <h3 class="card-text"><a href="" target="_blank">Feladat(max:25pont)</a></h3>
+            </div>			  
+          </div>
+        </div>                          
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Gyakorlásra videók</h2>
+              <h3 class="card-text"><a href="https://youtu.be/vQWdgpVc9lc" target="_blank">Teve1</a></h3>
+              <h3 class="card-text"><a href="https://youtu.be/y6lEMtnBkEI" target="_blank">Teve2</a></h3>
+              <h3 class="card-text"><a href="" target="_blank">Feladat(max:25pont)</a></h3>
+            </div>			  
+          </div>
+        </div>    
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Gyakorlásra videók</h2>
+              <h3 class="card-text"><a href="https://youtu.be/px_rJvXXMkw" target="_blank">Oldat1</a></h3>
+              <h3 class="card-text"><a href="https://youtu.be/1bt0d9GkTwo" target="_blank">Oldat2</a></h3>
+              <h3 class="card-text"><a href="" target="_blank">Feladat(max:25pont)</a></h3>
+            </div>			  
+          </div>
+        </div>  
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">Bootstrap(új!)</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/605909457af4fa42c3ddefe4/watch" target="_blank">Tanulás(max:7pont)</a></h3>
+              <h3 class="card-text"><a href="https://forms.gle/4BPwMexk3YjJEugK6" target="_blank">Kvíz (max:17pont)</a></h3>
+              <h3 class="card-text"><a href="https://www.w3schools.com/code/tryit.asp?filename=GNAZ7GGN9D9X" target="_blank">Feladat (max:21pont)</a></h3>
+            </div>			  
+          </div>
+        </div>  
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">2020-as érettségi feladat(új!)</h2>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60623b0a2fe09242806e9d79/watch" target="_blank">Tanulás1(max:8pont)</a></h3>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60624140349d64420c7ed7eb/watch" target="_blank">Tanulás2(max:9pont)</a></h3>
+              <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60624cae9c9ebf42324cea9c/watch" target="_blank">Tanulás3(max:9pont)</a></h3>
+            </div>			  
+          </div>
+        </div> 
+        <div class="col-md-6 col-lg-4">
+		      <div class="card mb-2">
+			      <div class="card-body">
+			        <h2 class="text-center">2021-es (legújabb!)</h2>
+              <h3 class="card-text"><a href="https://youtu.be/eqxQq953G3o" target="_blank">Atlétika WEB+Adatbázis</a></h3>
+              <h3 class="card-text"><a href="http://infojegyzet.hu/erettsegi/informatika-ismeretek/proba-web-2021aprl/" target="_blank">Feladat+Források</a></h3>
+              <h3 class="card-text">-</h3>
+            </div>			  
+          </div>
+        </div>                        
+
+        --> 
+
+
+  </div> 
+</div>
+
+<!--
+<div id="cs" class="container">
+  <div class="row">
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Tömbök</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613f9eff11a0404130e96bcf/watch" target="_blank">Tanulás(max:8pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div>			  
+      </div>
+    </div>  
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Pr.tételek röviden</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613fa023120e8441475d91d7/watch" target="_blank">Döntés(max:12pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613fa041a673e2417a65bd83/watch" target="_blank">Megszámlálás(max:6pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613fa05f120e8441475d95ed/watch" target="_blank">Összegzés(max:6pont)</a></h3>
+        </div>			  
+      </div>
+    </div>  
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Pr.tételek röviden(ism.)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613fa49f7ec351413aaae66f/watch" target="_blank">Minimum kiválasztás(max:6pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Programozási tételek</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613fa5d3370e88418d915e38/watch" target="_blank">Állomány beolvasás(max:6pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/613fa6110189b14152e2fed6/watch" target="_blank">Tanulás(max:25pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div>			  
+      </div>
+    </div>
+<!--
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Sztring függvények(új!)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/603d6dd791cf5b42a6f223cf/watch" target="_blank">Tanulás(max:9pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank">Feladat(max:9pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Struktúra(új!)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/603d76816719fc429103cf34/watch" target="_blank">Tanulás(max:10pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank">Feladat(max:10pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Eldöntés struktúrán(új!)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604685db3bde71423b611f3c/watch" target="_blank">Tanulás(max:10pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank">Feladat(max:10pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Megszámlálás struktúrán(új!)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604689d77b88bf425a9d45d7/watch" target="_blank">Tanulás(max:6pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank">Feladat(max:6pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Összegzés struktúrán(új!)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60468ca5035dcc4258d773b9/watch" target="_blank">Tanulás(max:5pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank">Feladat(max:5pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Minimum struktúrán(új!)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60469349c4b1c3424c380686/watch" target="_blank">Tanulás(max:9pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank">Feladat(max:9pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Állományba írás(új!)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60470eb040705f42437073c7/watch" target="_blank">Tanulás(max:6pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank">Feladat(max:6pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Érettségi feladat(CB-rádió)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604fc525ff436d42a40c07a5/watch" target="_blank">Tanulás1(max:12pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604fcdeda35ecd426354b5af/watch" target="_blank">Tanulás2(max:21pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/604fd9787bd87e428dd4b627/watch" target="_blank">Tanulás3(max:11pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Grafikus felületű program(új!)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6058fce26b0253424d94f5e0/watch" target="_blank">Tanulás1(max:18pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/605fba43131e08426e8764b4/watch" target="_blank">Tanulás2(max:10pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Érettségi (UltraBalaton1)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60697f4edbff1b4271b65506/watch" target="_blank">Tanulás1(max:10pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60698818ed237342785acd94/watch" target="_blank">Tanulás2(max:16pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6069a6b4a0d650427985fa91/watch" target="_blank">Tanulás3(max:10pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Érettségi (UltraBalaton2)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6069ab63e85ba742696c6cb4/watch" target="_blank">Tanulás4(max:5pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6069b00a632cd342542eb6a5/watch" target="_blank">Tanulás5(max:5pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">OOP Osztály létrehozása(új)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6071ea81d33aef417da34110/watch" target="_blank">Tanulás(max:6pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Érettségi 2020(CLI)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6071d3e3de8b5941619d985a/watch" target="_blank">Tanulás1(max:7pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6071fcdffd30a841317d4515/watch" target="_blank">Tanulás2(max:10pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/607222980acd16413efb6dc3/watch" target="_blank">Tanulás3(max:14pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Érettségi 2020(GUI)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/60722bc3faf3e141955d8cd3/watch" target="_blank">Tanulás4(max:15pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/607233f1b53c2d414c82b986/watch" target="_blank">Tanulás5(max:13pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Próbaérettségi 2021(CLI)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/608574521da3dc417ef43bcc/watch" target="_blank">Tanulás1(max:8pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6085c580da942541a6101e02/watch" target="_blank">Tanulás2(max:11pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6085ca3198f5384184ca4474/watch" target="_blank">Tanulás3(max:5pont)</a></h3>
+        </div>			  
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="card mb-2">
+        <div class="card-body">
+          <h2 class="text-center">Próbaérettségi 2021(GUI)</h2>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6085cff2b9c5b3417c9d7905/watch" target="_blank">Tanulás4(max:11pont)</a></h3>
+          <h3 class="card-text"><a href="https://edpuzzle.com/assignments/6085d6359a391c41682a491b/watch" target="_blank">Tanulás5(max:8pont)</a></h3>
+          <h3 class="card-text"><a href="" target="_blank"></a>-</h3>
+        </div>			  
+      </div>
+    </div>
+
+  </div>  
+</div>
+-->
+
+<div id="rang" class="container">
+  <script>          
+    var diak = ["Czocher Erik", "Csontos Tamás", "Csordás János", "Dobos Panna", "Fábián Petra", "Jakucs Attila", "Kenéz Bence Lajos", "Kotroczó Roland János", "Kovács Imre Milán", "Szabó György", "Molnár Mihály", "Baranyai Gergő", "Jakucs Zoltán"];
+    var pont = [20, 0, 0, 10, 10, 0,  20, 10, 0, 20, 0, 20, 0];
+
+    document.write('<table>');
+    document.write('<tr><th>Név</th><th>Pont</th><th title="Szintugrás:100 pont, 250 pont, 500 pont,1000 pont">Rang<sup >*</sup></th></tr>'); 
+    for (i=0; i<13; i++)
+    {  
+      document.write('<tr>');
+      document.write('<td>'+diak[i]+'</td>');
+      document.write('<td>'+pont[i]+'</td>');
+      if (pont[i]< 100)   
+        document.write('<td>Újonc</td>');
+      else if(pont[i]< 250) 
+        document.write('<td>Tanuló</td>');
+      else if(pont[i]< 500)
+        document.write('<td>Gyakornok1</td>');
+      else if(pont[i]< 1000)
+        document.write('<td>Gyakornok2</td>');
+      else
+        document.write('<td>Profi</td>');            
+      document.write('</tr>')
+    }
+    document.write('</tr>')      
+    document.write('<td colspan=3>* Szintugrás:100pont, 250pont, 500pont, 1000pont</td> ');  
+    document.write('</tr>') 
+    document.write('</table');
+  </script>          
+</div>   
+</body>
+</html>
