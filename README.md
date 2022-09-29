@@ -1,4 +1,4 @@
-# Projektmunkák
+# Informatika ágazat diákjainak projektmunkái
 
 ## 2021/2022 tanév
 ### 1/13. osztály
